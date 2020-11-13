@@ -25,9 +25,7 @@ if __name__ == '__main__':
     b = [abs(i) for i in a]
     for i, item in enumerate(b):
         if item < a_min:
-            i_min, a_min = i, item
-        if item >= a_max:
-            i_max, a_max = i, item
+            i_min, a_min = i, item 
     a_new = a[i_min:i_max+1]
     res = 1
     for j in a_new:
