@@ -17,7 +17,7 @@ if __name__ == '__main__':
     for i in a:
         if i > 0:
             r += i
-    print("1)""%.2f" % r)
+    print(f'1) {r:.2f}')
 
     S = []
     a_min = a_max = a[0]
